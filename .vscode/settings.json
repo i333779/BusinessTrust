@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".vs\\BusinessTrustApp\\v16",
+    "appService.defaultWebAppToDeploy": "/subscriptions/87f340d1-d381-43ec-8e4c-f288c3cf221e/resourceGroups/msft-sap-hackathon-businesstrust/providers/Microsoft.Web/sites/BusinessTrustWebApp"
+}

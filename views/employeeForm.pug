@@ -1,0 +1,38 @@
+extends layout
+
+block content
+    h1="Update Employee Parameters"
+    form( method='post', action='/Employee/update')
+        .form-group
+            label(for='ID') EmployeeId 
+            |  
+            input#id.form-control(type='text', name='id', placeholder='Enter employee ID')
+            p
+        .form-group
+            label(for='Temperature') Temperature
+            |  
+            input#datePublication.form-control(type='int', name='Temperature', placeholder='Enter temperature')
+            p
+        .form-group
+            label(for='Coordinates') Location
+            |  
+            input#datePublication.form-control(type='text', name='CoordinateX', placeholder='Enter CoordinateX')
+            |  
+            input#datePublication.form-control(type='text', name='CoordinateY', placeholder='Enter CoordinateY')
+            P
+        .form-check-inline
+            input#exampleRadios1.form-check-input(type='checkbox', name='note', value='1')
+            label.form-check-label(for='SafetyGear')
+                | Adequate safety Gear
+            p
+        .form-check-inline
+            input#exampleRadios2.form-check-input(type='checkbox', name='note', value='2')
+            label.form-check-label(for='Distance')
+                | Is safe distance maintained
+            p
+        .form-check
+            label.form-check-label(for='active')
+                | Do you want to submit ?
+            p
+        button.btn.btn-primary(type='submit') Update Employee record
+
