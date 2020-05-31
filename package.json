@@ -18,7 +18,8 @@
     "pug": "^2.0.0-beta6",
     "serve-favicon": "^2.3.0",
     "node-fetch": "^2.6.0",
-    "follow-redirects": "^1.11.0"
+    "follow-redirects": "^1.11.0",
+    "axios": "^0.19.2"
   },
   "engines": {
     "node": "~6.10.x"
